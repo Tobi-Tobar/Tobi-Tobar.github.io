@@ -1,35 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Home - Tobi Tobar</title>
+  <title>Tobi Tobar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <style>
+  
+.carousel-control-prev,
+.carousel-control-next{
+      margin: 20%;
+}
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
- <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  </style>
+  
 </head>
-<body>
+<body style="background-color:rgb(128, 128, 255);">
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
- <ul class="navbar-nav">
- 	<li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
-	<li class="nav-item"><a class="nav-link" href="glitch.html">glitch</a></li>
-	<li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
-    <li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a>      </li>
-    <li class="nav-item"><a class="nav-link" href="netart.html">net-art</a></li>
-    <li class="nav-item"><a class="nav-link" href="code-as-art.html">code art</a></li>
-	 <li class="nav-item"><a class="nav-link" href="ai.html">artificial int</a></li>	
-</ul> 
+<nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+
+<a href="index.html" class="btn btn-dark mr-1" role="button">Home</a>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-dark">Portfolios</button>
+    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="art74.html"#">Art 74</a>
+      <a class="dropdown-item" href="personal.html"#">Personal</a>
+    </div>
+  </div>
+  
+<a href="contact.html" class="btn btn-dark ml-1" role="button">Contact</a>
+
 </nav>
+<br>
+<br>
+<div id="images" class="carousel slide" data-ride="carousel">
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="tobi1.jpg" class="d-block mx-auto"  alt="Tobi" width="300" height="400">
+    </div>
+    <div class="carousel-item">
+      <img src="tobi2.jpg" class="d-block mx-auto"  alt="Tobi" width="300" height="400">
+    </div>
+    <div class="carousel-item">     
+	<img src="tobi3.jpg" class="d-block mx-auto" alt="Tobi" width="300" height="400">
+	</div>
 
-<p>Howdy! Welcome to my Portfolio</p>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#images" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#images" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+<h1 style="text-align:center;"> Howdy!</h1>
+<p style="text-align:center;"> Welcome to my Webpage! My name is Tobi Tobar and I am a currently a student at San Jose State University. I am currently trying to get my BFA in Digital Media Art. I transfered from American River College to SJSU in Fall 2020, I have an Associates in Art New Media and Art History. I like to dabble in all spectrums of arts, including Theater and Music. Thank you for looking through my portfolio and I hope you have a lovely day. </p>
+
 </body>
 </html>
